@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  tasks:
+    - file: path=/home/rps/local.yml state=touch
