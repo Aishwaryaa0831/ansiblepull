@@ -1,4 +1,4 @@
 ---
 - hosts: localhost
   tasks:
-    - file: path=/home/rps/local.yml state=touch
+    - file: path=/home/rps/one.txt state=touch
